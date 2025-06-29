@@ -11,7 +11,7 @@ API_ID = int(os.getenv("API_ID"))
 API_HASH = os.getenv("API_HASH")
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 MONGO_URI = os.getenv("MONGO_URI")
-ADMIN_ID = int(os.getenv("ADMIN_ID", "123456789"))  # Replace with your Telegram ID
+ADMIN_ID = int(os.getenv("ADMIN_ID", "6585036859"))  # Replace with your Telegram ID
 
 # MongoDB
 mongo = MongoClient(MONGO_URI)
